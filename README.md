@@ -1,4 +1,5 @@
-
+![alt text](Imágenes/Beige Modern Elegant Personal LinkedIn Banner.png) 
+Imágenes/Beige Modern Elegant Personal LinkedIn Banner.png
 
 # Proyecto individual N°1 - Machine Learning Operations (MLOps)
 
