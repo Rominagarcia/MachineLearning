@@ -70,11 +70,9 @@ Para asegurar la accesibilidad y la integración de las funcionalidades desarrol
 - *productoras_exitosas:* Informa sobre las ganancias totales y la cantidad de películas realizadas por una productora específica. Al ingresar el nombre de una productora, obtendremos detalles sobre las ganancias totales generadas por las películas producidas por esa productora, así como el recuento de películas en su cartera.
 
 ## **Modelo de Machine Learning**
-
 - *recomendacion:* Esta consulta recibe el título de una película y proporciona una lista de las 5 películas más similares. Al ejecutar esta consulta, utilizando técnicas de recomendación basada en contenido, se generará una lista de las películas que comparten características similares con la película ingresada. Estas recomendaciones ayudarán a nuestros usuarios a descubrir y explorar películas afines a sus preferencias.
 
 ## **Conclusiones:**
-
 Luego de completar el análisis de datos y el desarrollo del modelo de recomendación de películas, los resultados corroboraron de forma positiva cada uno de los objetivos establecidos. El análisis de datos proporcionó información relevante y detallada sobre las películas transmitidas en la plataforma de agregación de streaming, permitiendo identificar patrones, tendencias y características clave que brindaron una comprensión profunda del contenido disponible. Esto demostró que las consultas específicas a los datos fueron efectivas para obtener información relevante.
 
 En cuanto al modelo de recomendación de películas, se logró crear un sistema capaz de ofrecer una lista de 5 películas similares al ingresar un título. El modelo utilizó técnicas de aprendizaje automático y se basó en características compartidas entre las películas para garantizar una experiencia personalizada y relevante para cada usuario. Estos resultados confirmaron el éxito del objetivo de ofrecer recomendaciones personalizadas, brindando a los usuarios una experiencia mejorada y adaptada a sus gustos y preferencias.
