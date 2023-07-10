@@ -1,4 +1,4 @@
-![alt text](Imágenes/Beige Modern Elegant Personal LinkedIn Banner.PNG)
+![mooc](https://github.com/Rominagarcia/ProyectoDA/assets/96449858/7d650dcd-cdcd-4f4a-8c6f-5d25c38b3ab4)
 
 # Proyecto individual N°1 - Machine Learning Operations (MLOps)
 
