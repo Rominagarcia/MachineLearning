@@ -34,7 +34,7 @@ Este proyecto realiza un modelo de recomendación de películas basado en conten
 - En el archivo ETL.ipynb se encuentra todo lo referido a el proceso de transformacion de los datos crudos que nos proporcionan. Para mas info remitirse a dicho archivo.
 - En el archivo EDA.ipynb se encuentra el Analisis Exploratorio de Datos(EDA). Para mas info remitirse a dicho archivo.
 - En el archivo main.py se encuentra el achivo principal, el cual se deve ejecutar en la API.
-- Link donde se puede acceder a la API >> [API] (https://individualprojectrominagiselle.onrender.com).
+- Link donde se puede acceder a la API >> [API] (https://machinelearningrominagisellegarcia.onrender.com/docs).
 - Link donde ejecutar los comandos de la API >> [API/Docs] (https://individualprojectrominagiselle.onrender.com/docs).
 
 ### *Bibliografía*
