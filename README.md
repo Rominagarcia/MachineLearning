@@ -1,4 +1,4 @@
-![mooc](https://github.com/Rominagarcia/ProyectoDA/assets/96449858/7d650dcd-cdcd-4f4a-8c6f-5d25c38b3ab4)
+![mooc](https://github.com/Rominagarcia/MachineLearning/assets/96449858/2ac92855-dd98-472d-8875-4aff17e5cab3)
 
 # Proyecto individual N°1 - Machine Learning Operations (MLOps)
 
