@@ -1,4 +1,4 @@
-<img src="src/images/Beige Modern Elegant Personal LinkedIn Banner.PNG" width="120" height="82">
+<img src="Imágenes/Beige Modern Elegant Personal LinkedIn Banner.PNG" width="120" height="82">
 
 
 ![alt text](Imágenes/Beige Modern Elegant Personal LinkedIn Banner.png) 
