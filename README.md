@@ -49,25 +49,25 @@ Con base en el cálculo de similitudes, se seleccionan las 5 películas más sim
 
 ## **El proyecto se centra en los siguientes objetivos**
 
-### **- Realizar consultas específicas a los datos para obtener información relevante** 
+- ### **Realizar consultas específicas a los datos para obtener información relevante** 
 Se busca explorar y analizar los conjuntos de datos proporcionados mediante consultas específicas que nos permitan obtener información relevante sobre las películas transmitidas en nuestra plataforma de agregación de streaming. Estas consultas nos ayudarán a identificar patrones, tendencias y características clave que nos brinden una comprensión profunda del contenido disponible.
 
-### **- Crear un modelo de recomendación de películas capaz de ofrecer una lista de 5 películas similares al ingresar un título** 
+- ### **Crear un modelo de recomendación de películas capaz de ofrecer una lista de 5 películas similares al ingresar un título** 
 Uno de los objetivos principales del proyecto es desarrollar un modelo de recomendación basado en contenido que pueda generar recomendaciones personalizadas para nuestros usuarios. Este modelo utilizará técnicas de aprendizaje automático para procesar información clave, como el título de las películas, y proporcionará una lista de 5 películas similares a aquella ingresada por el usuario. Estas recomendaciones se basarán en las características compartidas entre las películas para garantizar una experiencia personalizada y relevante para cada usuario.
 
-### **- Desarrollar una API que exponga las funcionalidades mencionadas anteriormente y permita su fácil integración y consumo** 
+- ### **Desarrollar una API que exponga las funcionalidades mencionadas anteriormente y permita su fácil integración y consumo** 
 Para asegurar la accesibilidad y la integración de las funcionalidades desarrolladas, se creará una API que expondrá las consultas específicas a los datos y el modelo de recomendación de películas. Esta API permitirá a otros sistemas y aplicaciones utilizar y consumir estas funcionalidades de manera eficiente. Estará diseñada para ser intuitiva, documentada adecuadamente y contar con las mejores prácticas de seguridad.
 
 ## **Las consultas fundamentales en las que me centré son las siguientes**
-*peliculas_idioma:* Esta consulta devuelve la cantidad de películas producidas en el idioma especificado. Permite obtener una visión cuantitativa de las películas disponibles en nuestra plataforma en relación con los idiomas de producción. Al ejecutar esta consulta, se obtendrá un recuento de las películas producidas en el idioma seleccionado.
+- *peliculas_idioma:* Esta consulta devuelve la cantidad de películas producidas en el idioma especificado. Permite obtener una visión cuantitativa de las películas disponibles en nuestra plataforma en relación con los idiomas de producción. Al ejecutar esta consulta, se obtendrá un recuento de las películas producidas en el idioma seleccionado.
 
-*peliculas_duracion:* Proporciona la duración y el año de lanzamiento de una película específica. Al ingresar el título de una película, esta consulta nos brindará información detallada sobre su duración y el año en que se lanzó. Esto resulta útil para conocer detalles específicos sobre una película en particular.
+- *peliculas_duracion:* Proporciona la duración y el año de lanzamiento de una película específica. Al ingresar el título de una película, esta consulta nos brindará información detallada sobre su duración y el año en que se lanzó. Esto resulta útil para conocer detalles específicos sobre una película en particular.
 
-*franquicia:* Mediante esta consulta, se muestra la cantidad de películas, las ganancias totales y el promedio de una franquicia específica. Al ingresar el nombre de una franquicia, obtendremos información detallada sobre el número total de películas que la componen, las ganancias acumuladas de todas las películas de la franquicia y el promedio de ganancias por película.
+- *franquicia:* Mediante esta consulta, se muestra la cantidad de películas, las ganancias totales y el promedio de una franquicia específica. Al ingresar el nombre de una franquicia, obtendremos información detallada sobre el número total de películas que la componen, las ganancias acumuladas de todas las películas de la franquicia y el promedio de ganancias por película.
 
-*peliculas_pais:* Esta consulta ofrece la cantidad de películas producidas en un país específico. Al especificar un país, obtendremos el recuento de películas producidas en ese país en particular. Esta información puede ser útil para comprender la distribución geográfica de las producciones cinematográficas en nuestra plataforma.
+- *peliculas_pais:* Esta consulta ofrece la cantidad de películas producidas en un país específico. Al especificar un país, obtendremos el recuento de películas producidas en ese país en particular. Esta información puede ser útil para comprender la distribución geográfica de las producciones cinematográficas en nuestra plataforma.
 
-*productoras_exitosas:* Informa sobre las ganancias totales y la cantidad de películas realizadas por una productora específica. Al ingresar el nombre de una productora, obtendremos detalles sobre las ganancias totales generadas por las películas producidas por esa productora, así como el recuento de películas en su cartera.
+- *productoras_exitosas:* Informa sobre las ganancias totales y la cantidad de películas realizadas por una productora específica. Al ingresar el nombre de una productora, obtendremos detalles sobre las ganancias totales generadas por las películas producidas por esa productora, así como el recuento de películas en su cartera.
 
 ## **Modelo de Machine Learning**
 
