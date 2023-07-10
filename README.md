@@ -29,7 +29,7 @@ Este proyecto implementa un modelo de recomendación de películas basado en con
 *Cálculo de similitudes:* Se utiliza la medida de similitud del coseno para calcular la similitud entre los vectores de características de las películas.
 *Recomendación de películas:* Se seleccionan las 5 películas más similares al título proporcionado como parámetro y se presentan como resultado de la recomendación.
 
-
+**Conclusiones:**
 
 **Implementación/Uso**
 - En el archivo ETL.ipynb se encuentra todo lo referido a el proceso de transformacion de los datos crudos que nos proporcionan. Para mas info remitirse a dicho archivo.
