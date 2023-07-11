@@ -12,7 +12,7 @@ Como Data Scientist en una start-up enfocada en servicios de agregación de plat
 
 El primer paso de mi proceso consistió en realizar una exploración exhaustiva del conjunto de datos. Mediante un enfoque riguroso, identifiqué las variables clave y realicé una limpieza y preprocesamiento de los datos para garantizar su calidad y coherencia. Además, llevé a cabo una transformación y codificación adecuada de las características pertinentes con el objetivo de preparar los datos para su posterior análisis.
 
-Como paso siguiente, procedí a realizar un análisis descriptivo para obtener una visión general de las características de las películas en nuestra plataforma. Mediante visualizaciones y correlaciones relevantes, obtuve información detallada sobre géneros populares, duración y otras características relevantes para nuestro negocio.
+Como paso siguiente, procedí a realizar un análisis descriptivo para obtener una visión general de las características de las películas en nuestra plataforma. Mediante visualizaciones y correlaciones relevantes, obtuve información detallada sobre géneros populares, duración y otras características importantes para nuestro negocio.
 
 Para ofrecer recomendaciones personalizadas a los usuarios, implementé un modelo que tiene como objetivo ofrecer recomendaciones personalizadas a los mismos. Utilicé técnicas avanzadas de aprendizaje automático para desarrollar y entrenar un modelo que procesa información clave sobre las películas, como el título. Esta información se utiliza para encontrar películas similares y *proporcionar recomendaciones personalizadas a cada usuario, teniendo en cuenta sus preferencias individuales.*
 
@@ -30,16 +30,16 @@ Es una etapa crítica en cualquier proyecto de análisis de datos. Consiste en i
 Se examinan las características de las variables, como su tipo (numérico, categórico), la cantidad de valores faltantes, la distribución de los valores y los posibles outliers (valores atípicos). También se exploran las relaciones entre las variables.
 
 ### **2) Visualización de los datos** 
-Se utilizan gráficos y visualizaciones adecuadas como gráficos de barras y gráficos circulares, para comprender la distribución y las relaciones entre las variables. Estas visualizaciones ayudan a identificar patrones, valores atípicos y posibles correlaciones.
+Se utilizan gráficos y visualizaciones adecuadas como gráficos de barras y gráficos circulares, para comprender la distribución y las relaciones entre las variables.
 
 ### **3) Análisis de correlación** 
-Se examina la correlación entre las variables para identificar posibles relaciones lineales o no lineales. Esto puede ayudar a determinar qué variables pueden ser relevantes para el modelo y cómo interactúan entre sí.
+Se examina la correlación entre las variables para identificar posibles relaciones lineales o no lineales. Esto puede ayudar a determinar qué variables pueden ser predominantes para el modelo y cómo interactúan entre sí.
 
 ### **4) Identificación de valores atípicos** 
 Se buscan valores que se desvíen significativamente de la tendencia general de los datos. Pueden requerir una atención especial para comprender su origen y determinar si deben ser tratados o excluidos en el análisis.
 
 ### **Creación de una matriz de características** 
-Una vez que los datos han sido preprocesados, se procede a generar vectores de características para cada película en los datos. Estos vectores describen de manera precisa los atributos relevantes de cada película, como el título, género y directores. Cada película se representa mediante un vector numérico que captura su información clave.
+Una vez que los datos han sido preprocesados, se procede a generar vectores de características para cada película en los datos. Estos vectores describen de manera precisa los atributos destacados de cada película, como el título, género y directores. Cada película se representa mediante un vector numérico que captura su información clave.
 
 ### **Cálculo de similitudes**
 Utilizando la medida de similitud del coseno, se calcula la similitud entre los vectores de características de las películas. Esto implica comparar la proximidad de las películas en función de sus características compartidas. Cuanto más cercanos sean los vectores, mayor será la similitud entre las películas.
@@ -50,10 +50,10 @@ Con base en el cálculo de similitudes, se seleccionan las 5 películas más sim
 ## **El proyecto se centra en los siguientes objetivos**
 
 - ### **Realizar consultas específicas a los datos para obtener información relevante** 
-Se busca explorar y analizar los conjuntos de datos proporcionados mediante consultas específicas que nos permitan obtener información relevante sobre las películas transmitidas en nuestra plataforma de agregación de streaming. Estas nos ayudarán a identificar patrones, tendencias y características clave que nos brinden una comprensión profunda del contenido disponible.
+Se busca explorar y analizar los conjuntos de datos proporcionados mediante consultas específicas que nos permitan obtener información particular sobre las películas transmitidas en nuestra plataforma de agregación de streaming. Estas nos ayudarán a identificar patrones, tendencias y características clave que nos brinden una comprensión profunda del contenido disponible.
 
 - ### **Crear un modelo de recomendación de películas capaz de ofrecer una lista de 5 películas similares al ingresar un título** 
-Uno de los objetivos principales del proyecto es desarrollar un modelo de recomendación basado en contenido que pueda generar recomendaciones personalizadas para nuestros usuarios. Este modelo utilizará técnicas de aprendizaje automático para procesar información clave, como el título de las películas, y proporcionará una lista de 5 películas similares a aquella ingresada por el usuario. Estas recomendaciones se basarán en las características compartidas entre las películas para garantizar una experiencia personalizada y relevante para cada usuario.
+Uno de los objetivos principales del proyecto es desarrollar un modelo de recomendación basado en contenido que pueda generar recomendaciones personalizadas para nuestros usuarios. Este modelo utilizará técnicas de aprendizaje automático para procesar información clave, como el título de las películas, y proporcionará una lista de 5 películas similares a aquella ingresada por el usuario. Estas recomendaciones se basarán en las características compartidas entre las películas para garantizar una experiencia personalizada para cada usuario.
 
 - ### **Desarrollar una API que exponga las funcionalidades mencionadas anteriormente y permita su fácil integración y consumo** 
 Para asegurar la accesibilidad y la integración de las funcionalidades desarrolladas, se creará una API que expondrá las consultas específicas a los datos y el modelo de recomendación de películas. Esta API permitirá a otros sistemas y aplicaciones utilizar y consumir estas funcionalidades de manera eficiente. Estará diseñada para ser intuitiva, documentada adecuadamente y contar con las mejores prácticas de seguridad.
@@ -72,10 +72,10 @@ Para asegurar la accesibilidad y la integración de las funcionalidades desarrol
 ## **Modelo de Machine Learning**
 - *recomendacion:* Esta consulta recibe el título de una película y proporciona una lista de las 5 películas más similares. Al ejecutar esta consulta, utilizando técnicas de recomendación basada en contenido, se generará una lista de las películas que comparten características similares con la película ingresada. Estas recomendaciones ayudarán a nuestros usuarios a descubrir y explorar películas afines a sus preferencias.
 
-## **Conclusiones:**
-Luego de completar el análisis de datos y el desarrollo del modelo de recomendación de películas, los resultados corroboraron de forma positiva cada uno de los objetivos establecidos. El análisis de datos proporcionó información relevante y detallada sobre las películas transmitidas en la plataforma de agregación de streaming, permitiendo identificar patrones, tendencias y características clave que brindaron una comprensión profunda del contenido disponible. Esto demostró que las consultas específicas a los datos fueron efectivas para obtener información relevante.
+## **Conclusiones**
+Luego de completar el análisis de datos y el desarrollo del modelo de recomendación de películas, los resultados corroboraron de forma positiva cada uno de los objetivos establecidos. El análisis de datos proporcionó información detallada sobre las películas transmitidas en la plataforma de agregación de streaming, permitiendo identificar patrones, tendencias y características clave que brindaron una comprensión profunda del contenido disponible. Esto demostró que las consultas específicas a los datos fueron efectivas para obtener información importante.
 
-En cuanto al modelo de recomendación de películas, se logró crear un sistema capaz de ofrecer una lista de 5 películas similares al ingresar un título. Utilizó técnicas de aprendizaje automático y se basó en características compartidas entre las películas para garantizar una experiencia personalizada y relevante para cada usuario. Estos resultados confirmaron el éxito del objetivo de ofrecer recomendaciones personalizadas, brindando a los usuarios una experiencia mejorada y adaptada a sus gustos y preferencias.
+En cuanto al modelo de recomendación de películas, se logró crear un sistema capaz de ofrecer una lista de 5 películas similares al ingresar un título. Utilizó técnicas de aprendizaje automático y se basó en características compartidas entre las películas para garantizar una experiencia personalizada para cada usuario. Estos resultados confirmaron el éxito del objetivo de ofrecer recomendaciones personalizadas, brindando a los usuarios una experiencia mejorada y adaptada a sus gustos y preferencias.
 
 Además, se desarrolló una API que expone las funcionalidades mencionadas anteriormente, permitiendo su fácil integración y consumo por parte de otros sistemas y aplicaciones. Esta API fue diseñada de manera intuitiva, documentada adecuadamente y siguiendo las mejores prácticas de seguridad, lo que facilita su implementación y utilización por parte de terceros.
 
