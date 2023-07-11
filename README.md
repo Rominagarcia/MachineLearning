@@ -87,7 +87,6 @@ Además, se desarrolló una API que expone las funcionalidades mencionadas anter
 - En el archivo main.py se encuentra el achivo principal, el cual se deve ejecutar en la API.
 - Link donde se puede acceder a la API >> [API](https://machinelearningrominagisellegarcia.onrender.com).
 - Link donde ejecutar los comandos de la API >> [API/Docs](https://machinelearningrominagisellegarcia.onrender.com/docs).
-- Link para ingresar al video >> [YouTube](https://).
 
 ## *Bibliografía*
 Consignas del Proyecto >> [Archivo](https://github.com/soyHenry/PI_ML_OPS/blob/main/Readme.md).
