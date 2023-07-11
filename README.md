@@ -8,13 +8,13 @@
 ## **Introducción**
 Como Data Scientist en una start-up enfocada en servicios de agregación de plataformas de streaming, tuve la oportunidad de llevar a cabo un proyecto significativo que busca mejorar la comprensión y el aprovechamiento de los datos relacionados con las películas transmitidas en nuestra plataforma. En este proyecto, se me proporcionaron dos archivos en formato csv que contienen información detallada sobre las películas.
 
-> El objetivo principal de este proyecto es aprovechar el potencial de los datos para obtener información valiosa y generar recomendaciones personalizadas a nuestros usuarios. Para lograrlo, utilicé técnicas avanzadas de análisis de datos y aprendizaje automáticocon el fin de extraer patrones, tendencias y conocimientos relevantes.
+> El objetivo principal de este proyecto es aprovechar el potencial de los datos para obtener información valiosa y generar recomendaciones personalizadas a nuestros usuarios. Para lograrlo, utilicé técnicas avanzadas de análisis de datos y aprendizaje automático con el fin de extraer patrones, tendencias y conocimientos relevantes.
 
-El primer paso de mi proceso consistió en realizar una exploración exhaustiva de los conjuntos de datos. Mediante un enfoque riguroso, identifiqué las variables clave y realicé una limpieza y preprocesamiento de los datos para garantizar su calidad y coherencia. Además, llevé a cabo una transformación y codificación adecuada de las características pertinentes con el objetivo de preparar los datos para su posterior análisis.
+El primer paso de mi proceso consistió en realizar una exploración exhaustiva del conjunto de datos. Mediante un enfoque riguroso, identifiqué las variables clave y realicé una limpieza y preprocesamiento de los datos para garantizar su calidad y coherencia. Además, llevé a cabo una transformación y codificación adecuada de las características pertinentes con el objetivo de preparar los datos para su posterior análisis.
 
-Como paso siguiente, procedí a realizar un análisis descriptivo para obtener una visión general de las características de las películas en nuestra plataforma. Mediante visualizaciones y correlaciones relevantes, obtuve información detallada sobre géneros populares, calificaciones, duración y otras características relevantes para nuestro negocio.
+Como paso siguiente, procedí a realizar un análisis descriptivo para obtener una visión general de las características de las películas en nuestra plataforma. Mediante visualizaciones y correlaciones relevantes, obtuve información detallada sobre géneros populares, duración y otras características relevantes para nuestro negocio.
 
-Para ofrecer recomendaciones personalizadas a nuestros usuarios, implementé un modelo que tiene como objetivo ofrecer recomendaciones personalizadas a nuestros usuarios. Utilicé técnicas avanzadas de aprendizaje automático para desarrollar y entrenar un modelo que procesa información clave sobre las películas, como el título. Esta información se utiliza para encontrar películas similares y proporcionar recomendaciones personalizadas a cada usuario, teniendo en cuenta sus preferencias individuales.
+Para ofrecer recomendaciones personalizadas a los usuarios, implementé un modelo que tiene como objetivo ofrecer recomendaciones personalizadas a los mismos. Utilicé técnicas avanzadas de aprendizaje automático para desarrollar y entrenar un modelo que procesa información clave sobre las películas, como el título. Esta información se utiliza para encontrar películas similares y *proporcionar recomendaciones personalizadas a cada usuario, teniendo en cuenta sus preferencias individuales.*
 
 El modelo de recomendación basado en contenido aprovecha los patrones y las características intrínsecas de las películas para establecer relaciones de similitud. Al analizar en detalle las características mencionadas anteriormente, el modelo identifica aquellas películas que comparten características similares y las sugiere a los usuarios en función de sus preferencias.
 
@@ -24,33 +24,33 @@ El modelo de recomendación basado en contenido aprovecha los patrones y las car
 En esta etapa, se realiza una limpieza y transformación de los datos para asegurar su calidad y adecuación al modelo. Esto implica la eliminación de valores faltantes, la normalización de datos, la codificación adecuada de variables categóricas y cualquier otra tarea necesaria para garantizar que los datos sean coherentes y aptos para el análisis.
 
 ### **Análisis Exploratorio de Datos (EDA)** 
-El Análisis Exploratorio de Datos es una etapa crítica en cualquier proyecto de análisis de datos. Consiste en investigar y comprender los datos en bruto mediante técnicas estadísticas y visuales. El EDA ayuda a revelar patrones, tendencias, distribuciones y posibles relaciones entre las variables presentes en los datos.
+Es una etapa crítica en cualquier proyecto de análisis de datos. Consiste en investigar y comprender la información en bruto mediante técnicas estadísticas y visuales. El EDA ayuda a revelar patrones, tendencias, distribuciones y posibles relaciones entre las variables presentes en los datos.
 
 ### **1) Descripción de los datos** 
 Se examinan las características de las variables, como su tipo (numérico, categórico), la cantidad de valores faltantes, la distribución de los valores y los posibles outliers (valores atípicos). También se exploran las relaciones entre las variables.
 
 ### **2) Visualización de los datos** 
-Se utilizan gráficos y visualizaciones adecuadas, como histogramas, gráficos de barras, diagramas de dispersión y diagramas de caja, para comprender la distribución y las relaciones entre las variables. Estas visualizaciones ayudan a identificar patrones, valores atípicos y posibles correlaciones.
+Se utilizan gráficos y visualizaciones adecuadas como gráficos de barras y gráficos circulares, para comprender la distribución y las relaciones entre las variables. Estas visualizaciones ayudan a identificar patrones, valores atípicos y posibles correlaciones.
 
 ### **3) Análisis de correlación** 
-Se examina la correlación entre las variables para identificar posibles relaciones lineales o no lineales. Esto puede ayudar a determinar qué variables pueden ser relevantes para el modelo de recomendación y cómo interactúan entre sí.
+Se examina la correlación entre las variables para identificar posibles relaciones lineales o no lineales. Esto puede ayudar a determinar qué variables pueden ser relevantes para el modelo y cómo interactúan entre sí.
 
 ### **4) Identificación de valores atípicos** 
-Se buscan valores que se desvíen significativamente de la tendencia general de los datos. Estos valores atípicos pueden requerir una atención especial para comprender su origen y determinar si deben ser tratados o excluidos en el análisis.
+Se buscan valores que se desvíen significativamente de la tendencia general de los datos. Pueden requerir una atención especial para comprender su origen y determinar si deben ser tratados o excluidos en el análisis.
 
 ### **Creación de una matriz de características** 
-Una vez que los datos han sido preprocesados, se procede a generar vectores de características para cada película en los datos. Estos vectores describen de manera precisa los atributos relevantes de cada película, como el título, género, actores y directores. Cada película se representa mediante un vector numérico que captura su información clave.
+Una vez que los datos han sido preprocesados, se procede a generar vectores de características para cada película en los datos. Estos vectores describen de manera precisa los atributos relevantes de cada película, como el título, género y directores. Cada película se representa mediante un vector numérico que captura su información clave.
 
 ### **Cálculo de similitudes**
-Utilizando la medida de similitud del coseno u otra técnica adecuada, se calcula la similitud entre los vectores de características de las películas. Esto implica comparar la proximidad de las películas en función de sus características compartidas. Cuanto más cercanos sean los vectores, mayor será la similitud entre las películas.
+Utilizando la medida de similitud del coseno, se calcula la similitud entre los vectores de características de las películas. Esto implica comparar la proximidad de las películas en función de sus características compartidas. Cuanto más cercanos sean los vectores, mayor será la similitud entre las películas.
 
 ### **Recomendación de películas** 
-Con base en el cálculo de similitudes, se seleccionan las 5 películas más similares al título proporcionado como parámetro. Estas películas se eligen en función de su similitud con la película ingresada, utilizando la medida de similitud previamente calculada. El resultado de esta etapa es una lista de las películas más similares, que se presentan como resultado de la recomendación al usuario.
+Con base en el cálculo de similitudes, se seleccionan las 5 películas más similares al título proporcionado como parámetro. Se eligen en función de su similitud con la película ingresada, utilizando la medida de similitud previamente calculada. El resultado de esta etapa es una lista de las películas más similares, que se presentan como resultado de la recomendación al usuario.
 
 ## **El proyecto se centra en los siguientes objetivos**
 
 - ### **Realizar consultas específicas a los datos para obtener información relevante** 
-Se busca explorar y analizar los conjuntos de datos proporcionados mediante consultas específicas que nos permitan obtener información relevante sobre las películas transmitidas en nuestra plataforma de agregación de streaming. Estas consultas nos ayudarán a identificar patrones, tendencias y características clave que nos brinden una comprensión profunda del contenido disponible.
+Se busca explorar y analizar los conjuntos de datos proporcionados mediante consultas específicas que nos permitan obtener información relevante sobre las películas transmitidas en nuestra plataforma de agregación de streaming. Estas nos ayudarán a identificar patrones, tendencias y características clave que nos brinden una comprensión profunda del contenido disponible.
 
 - ### **Crear un modelo de recomendación de películas capaz de ofrecer una lista de 5 películas similares al ingresar un título** 
 Uno de los objetivos principales del proyecto es desarrollar un modelo de recomendación basado en contenido que pueda generar recomendaciones personalizadas para nuestros usuarios. Este modelo utilizará técnicas de aprendizaje automático para procesar información clave, como el título de las películas, y proporcionará una lista de 5 películas similares a aquella ingresada por el usuario. Estas recomendaciones se basarán en las características compartidas entre las películas para garantizar una experiencia personalizada y relevante para cada usuario.
@@ -75,7 +75,7 @@ Para asegurar la accesibilidad y la integración de las funcionalidades desarrol
 ## **Conclusiones:**
 Luego de completar el análisis de datos y el desarrollo del modelo de recomendación de películas, los resultados corroboraron de forma positiva cada uno de los objetivos establecidos. El análisis de datos proporcionó información relevante y detallada sobre las películas transmitidas en la plataforma de agregación de streaming, permitiendo identificar patrones, tendencias y características clave que brindaron una comprensión profunda del contenido disponible. Esto demostró que las consultas específicas a los datos fueron efectivas para obtener información relevante.
 
-En cuanto al modelo de recomendación de películas, se logró crear un sistema capaz de ofrecer una lista de 5 películas similares al ingresar un título. El modelo utilizó técnicas de aprendizaje automático y se basó en características compartidas entre las películas para garantizar una experiencia personalizada y relevante para cada usuario. Estos resultados confirmaron el éxito del objetivo de ofrecer recomendaciones personalizadas, brindando a los usuarios una experiencia mejorada y adaptada a sus gustos y preferencias.
+En cuanto al modelo de recomendación de películas, se logró crear un sistema capaz de ofrecer una lista de 5 películas similares al ingresar un título. Utilizó técnicas de aprendizaje automático y se basó en características compartidas entre las películas para garantizar una experiencia personalizada y relevante para cada usuario. Estos resultados confirmaron el éxito del objetivo de ofrecer recomendaciones personalizadas, brindando a los usuarios una experiencia mejorada y adaptada a sus gustos y preferencias.
 
 Además, se desarrolló una API que expone las funcionalidades mencionadas anteriormente, permitiendo su fácil integración y consumo por parte de otros sistemas y aplicaciones. Esta API fue diseñada de manera intuitiva, documentada adecuadamente y siguiendo las mejores prácticas de seguridad, lo que facilita su implementación y utilización por parte de terceros.
 
